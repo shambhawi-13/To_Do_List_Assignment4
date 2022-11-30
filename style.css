@@ -1,0 +1,79 @@
+ /* ------------Initial Phase CSS--------------- */
+
+ 
+ body{
+  background: linear-gradient(to right, rgb(163, 224, 245) 0%, rgb(83, 83, 224) 100%);
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#inp{
+  width: 350px;
+  /* flex: 1; */
+  outline: none;
+  font-size: 30px;
+  border: 0;
+  padding: 5px;
+}
+.fa-plus-square{
+ color: red;
+ font-size: 25px;
+}
+.fa{    pointer-events: none;}
+#add{
+  font-size: 30px;
+  padding: 5px 10px 5px 10px;
+  border: 0;
+  outline: none;
+  background-color: white;
+}
+#add:hover{
+  background-color:rgb(155, 29, 39);
+}
+
+#con_ul{
+  display: flex;
+  justify-content: center;
+}
+#todo{
+  display: table-row;
+  list-style-type: none;
+  padding-left: 0;
+}
+#todo .li_items{
+  background-color: white;
+  margin: 10px auto;
+  list-style-type:none;
+  font-size: 30px;
+  min-width: 330px;
+  display: flex;  
+  align-items: center;
+}
+.spn{
+  flex: 1;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+.td{
+  font-size: 25px;
+  outline: none;
+  border: 0;
+  padding: 5px;
+  width: 40px;
+}
+#tick{  background-color: rgb(29, 163, 29); }
+#tick:hover{    background-color: rgba(32, 173, 32, 0.5); }
+#dlt{   background-color: rgb(219, 25, 35); }
+#dlt:hover{ background-color:  rgb(216, 112, 147,.5)}
+
+.line{   
+ text-decoration: line-through;
+ opacity: .7;
+ }
